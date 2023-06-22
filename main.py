@@ -1,8 +1,5 @@
-from flask import Flask, jsonify, request
-from flask.views import MethodView
+from flask import Flask
 
-from models import Advertisements, User, engine, get_session
-from validators import AdvValidate, UserValidate
 from views.Adv import Adv
 from views.UserManage import UsersManage
 

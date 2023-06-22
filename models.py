@@ -1,8 +1,7 @@
 from atexit import register
 
-from sqlalchemy import (Column, DateTime, ForeignKey, Integer, String,
-                        create_engine, func)
-from sqlalchemy.orm import declarative_base, relationship, sessionmaker
+from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, create_engine, func
+from sqlalchemy.orm import declarative_base, sessionmaker
 
 PG_USER = "postgres"
 PG_PASSWORD = "111"

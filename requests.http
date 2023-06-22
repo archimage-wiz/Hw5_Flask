@@ -45,6 +45,6 @@ DELETE {{baseUrl}}/adv
 Content-Type: application/json
 
 {
-    "id": "56",
+    "id": "51",
     "owner_id": "1"
 }

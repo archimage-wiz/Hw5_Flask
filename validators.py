@@ -2,7 +2,7 @@ from typing import Optional
 
 from pydantic import BaseModel, validator
 
-from models import Session, User, get_session
+from models import User, get_session
 
 
 class UserValidate(BaseModel):

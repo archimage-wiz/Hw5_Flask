@@ -1,9 +1,8 @@
-from flask import Flask, abort, jsonify, request
+from flask import abort, jsonify, request
 from flask.views import MethodView
-from pydantic import ValidationError
 
-from models import Advertisements, User, engine, get_session
-from validators import AdvValidate, UserValidate
+from models import Advertisements, get_session
+from validators import AdvValidate
 
 
 class Adv(MethodView):

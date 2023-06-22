@@ -1,8 +1,8 @@
-from flask import Flask, jsonify, request
+from flask import jsonify, request
 from flask.views import MethodView
 
-from models import Advertisements, User, engine, get_session
-from validators import AdvValidate, UserValidate
+from models import User, get_session
+from validators import UserValidate
 
 
 class UsersManage(MethodView):
